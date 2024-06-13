@@ -1,5 +1,5 @@
-using CatchUpPlatform.API.Shared.Domain.Repositories;
-using CatchUpPlatform.API.Shared.Infrastructure.Persistence.EFC.Configuration;
+using si730pc2u202018627.Shared.Domain.Repositories;
+using si730pc2u202018627.Shared.Infrastructure.Persistence.EFC.Configuration;
 
 namespace CatchUpPlatform.API.Shared.Infrastructure.Persistence.EFC.Repositories;
 

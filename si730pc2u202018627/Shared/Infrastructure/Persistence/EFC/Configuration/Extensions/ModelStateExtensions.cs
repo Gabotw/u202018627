@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace CatchUpPlatform.API.Shared.Infrastructure.Persistence.EFC.Configuration.Extensions;
+namespace si730pc2u202018627.Shared.Infrastructure.Persistence.EFC.Configuration.Extensions;
 
 public static class ModelStateExtensions
 {

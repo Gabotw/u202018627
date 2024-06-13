@@ -1,7 +1,7 @@
-using CatchUpPlatform.API.Shared.Infrastructure.Interfaces.ASP.Configuration.Extensions;
+using si730pc2u202018627.Shared.Infrastructure.Interfaces.ASP.Configuration.Extensions;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 
-namespace CatchUpPlatform.API.Shared.Infrastructure.Interfaces.ASP.Configuration;
+namespace si730pc2u202018627.Shared.Infrastructure.Interfaces.ASP.Configuration;
 
 public class KebabCaseRoutingNamingConvention : IControllerModelConvention
 {

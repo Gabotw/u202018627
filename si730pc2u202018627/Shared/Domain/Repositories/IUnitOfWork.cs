@@ -1,4 +1,4 @@
-namespace CatchUpPlatform.API.Shared.Domain.Repositories;
+namespace si730pc2u202018627.Shared.Domain.Repositories;
 
 public interface IUnitOfWork
 {

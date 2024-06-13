@@ -1,11 +1,8 @@
-using CatchUpPlatform.API.Educational.Domain.Model.Aggregates;
-using CatchUpPlatform.API.News.Domain.Model.Aggregates;
-//using CatchUpPlatform.API.Resources.Domain.Model.Aggregates;
-using CatchUpPlatform.API.Shared.Infrastructure.Persistence.EFC.Configuration.Extensions;
 using EntityFrameworkCore.CreatedUpdatedDate.Extensions;
 using Microsoft.EntityFrameworkCore;
+using si730pc2u202018627.API.Shared.Infrastructure.Persistence.EFC.Configuration.Extensions;
 
-namespace CatchUpPlatform.API.Shared.Infrastructure.Persistence.EFC.Configuration;
+namespace si730pc2u202018627.Shared.Infrastructure.Persistence.EFC.Configuration;
 
 public class AppDbContext : DbContext
 {
@@ -24,7 +21,7 @@ public class AppDbContext : DbContext
     {
         base.OnModelCreating(builder);
 
-        builder.Entity<FavoriteSource>().ToTable("FavoriteSources");
+       /* builder.Entity<FavoriteSource>().ToTable("FavoriteSources");
         builder.Entity<FavoriteSource>().HasKey(f => f.Id);
         builder.Entity<FavoriteSource>().Property(f => f.Id).IsRequired().ValueGeneratedOnAdd();
         builder.Entity<FavoriteSource>().Property(f => f.NewsApiKey).IsRequired();
@@ -48,7 +45,7 @@ public class AppDbContext : DbContext
         builder.Entity<LegalCase.Domain.Model.LegalCase>().Property(l => l.Description).IsRequired();
         builder.Entity<LegalCase.Domain.Model.LegalCase>().Property(l => l.Status).IsRequired();
         // Apply SnakeCase Naming Convention
-        builder.UseSnakeCaseNamingConvention();
+        builder.UseSnakeCaseNamingConvention();*/
         
     }
 }
